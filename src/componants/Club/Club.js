@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Session from '../Session/Session';
+import Profile from '../Profile/Profile';
 import './Club.css';
 const Club = () => {
     const [sessions, setSession] = useState([]);
@@ -24,6 +25,7 @@ const Club = () => {
                 }
             </div>
             <div className="second">
+                <Profile></Profile>
 
             </div>
         </div>

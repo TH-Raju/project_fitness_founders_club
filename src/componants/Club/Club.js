@@ -12,6 +12,10 @@ const Club = () => {
             .then(data => setSession(data));
     }, [])
 
+    const timeAdded = () => {
+        console.log('clicked');
+
+    }
 
     return (
         <div className='full'>
@@ -20,6 +24,7 @@ const Club = () => {
                     sessions.map(session => <Session
                         key={session.id}
                         session={session}
+                        timeAdded={timeAdded}
                     ></Session>)
 
                 }

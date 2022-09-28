@@ -3,6 +3,7 @@ import './Session.css';
 
 const Session = (props) => {
     const { img, name, description, age, time } = props.session;
+
     return (
         <div className="cart">
             <img src={img} alt="" className="img" />
@@ -12,7 +13,7 @@ const Session = (props) => {
                 <h3>Age: {age}</h3>
                 <h3>Time: <span>{time}</span> minute</h3>
             </div>
-            <button className="btn">Add to list</button>
+            <button onClick={props.timeAdded} className="btn">Add to list</button>
         </div>
     );
 };

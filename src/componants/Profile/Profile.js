@@ -1,7 +1,20 @@
-import { useEffect } from 'react';
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Profile.css';
+import rj from './rj.png';
+
 
 const Profile = (props) => {
+    const notify = () => toast.success("🦄 Wow You're Cool", {
+        position: "top-right",
+        autoClose: 4000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+    });
     const { times } = props;
 
     // For Estimate Time 
@@ -24,7 +37,7 @@ const Profile = (props) => {
     return (
         <div className='pro'>
             <div className="profile">
-                <img src="../../../public/logo192.png" alt="" />
+                <img src={rj} alt="" />
                 <h2>TH Raju</h2>
             </div>
             <div className="details">
@@ -60,7 +73,9 @@ const Profile = (props) => {
                 <h3>Break Time </h3>
                 <p><span id="bT">0 </span> minutes</p>
             </div>
-            <button className="buton">Activity Completed</button>
+            <button className="buton" onClick={notify}>Activity Completed</button>
+            <ToastContainer
+                type="success" />
         </div>
     );
 };

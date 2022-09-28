@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Profile from '../Profile/Profile';
 import Session from '../Session/Session';
 import './Club.css';
 const Club = () => {
@@ -25,7 +24,7 @@ const Club = () => {
                 }
             </div>
             <div className="second">
-                <Profile></Profile>
+
             </div>
         </div>
     );

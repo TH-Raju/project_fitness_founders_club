@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Push UP",
+    "time": 20,
+    "age": "18-24",
+    "description": "A gym is a large room, usually containing special equipment, where people go to do physical exercise and get fit.",
+    "img": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "2",
+    "name": "Dumble UP",
+    "time": 30,
+    "age": "22-32",
+    "description": "The gym has exercise bikes and running machines. While some guests play golf, others work out in the hotel gym.",
+    "img": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "3",
+    "name": "Cheast Dumb",
+    "time": 15,
+    "age": "18-30",
+    "description": "A A modern day gymnasium (as gym used to be called way back in Ancient Greece) is a place for indoor physical workout where various equipment and machines are typically used.",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "4",
+    "name": "Fitness",
+    "time": 30,
+    "age": "18-34",
+    "description": "A gym is a large room, usually containing special equipment, where people go to do physical exercise and get fit.",
+    "img": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "5",
+    "name": "Practice",
+    "time": 60,
+    "age": "18-40",
+    "description": "The Program Combines Bodyweight Exercises, Lifting, And Metabolic Conditioning. Multiple Workouts and Nutrition Plans pdf. Read Articles.",
+    "img": "https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "6",
+    "name": "Girls Yoga",
+    "time": 30,
+    "age": "18-30",
+    "description": "The Program Combines Bodyweight Exercises, Lifting, And Metabolic Conditioning. Multiple Workouts and Nutrition Plans pdf. Read Articles. Donate Online",
+    "img": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "7",
+    "name": "Hand Monster",
+    "time": 15,
+    "age": "20-40",
+    "description": "The gym has exercise bikes and running machines. While some guests play golf, others work out in the hotel gym.",
+    "img": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "8",
+    "name": "Body Fitness",
+    "time": 10,
+    "age": "18-40",
+    "description": "A gym is a large room, usually containing special equipment, where people go to do physical exercise and get fit.",
+    "img": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "9",
+    "name": "Iron Body",
+    "time": 15,
+    "age": "18-34",
+    "description": "Womens Plus Horlicks is the best energy drink for women who are into fitness and health.",
+    "img": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "10",
+    "name": "Wire Gym",
+    "time": 25,
+    "age": "20-35",
+    "description": "A gym is a large room, usually containing special equipment, where people go to do physical exercise and get fit.",
+    "img": "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "11",
+    "name": "Warm Up",
+    "time": 20,
+    "age": "18-35",
+    "description": "The gym has exercise bikes and running machines. While some guests play golf, others work out in the hotel gym.",
+    "img": "https://images.unsplash.com/photo-1546817372-628669db4655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "12",
+    "name": "Gym Pack",
+    "time": 30,
+    "age": "18-50",
+    "description": "A gym is a large room, usually containing special equipment, where people go to do physical exercise and get fit.",
+    "img": "https://images.unsplash.com/photo-1591311630200-ffa9120a540f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  }
+]

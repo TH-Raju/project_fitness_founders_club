@@ -1,0 +1,29 @@
+.ffc {
+    margin-bottom: 60px;
+}
+
+.cart {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 7px 6px 10px rgb(172, 171, 171);
+    height: 500px;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.btn {
+    width: 100%;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    bottom: 0;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    background-color: green;
+}

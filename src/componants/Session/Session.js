@@ -1,8 +1,8 @@
 import React from 'react';
 import './Session.css';
 
-const Session = (props) => {
-    const { img, name, description, age, time } = props.session;
+const Session = ({ timeAdded, session }) => {
+    const { img, name, description, age, time } = session;
 
     return (
         <div className="cart">
@@ -13,7 +13,7 @@ const Session = (props) => {
                 <h3>Age: {age}</h3>
                 <h3>Time: <span>{time}</span> minute</h3>
             </div>
-            <button onClick={props.timeAdded} className="btn">Add to list</button>
+            <button onClick={() => timeAdded(session)} className="btn">Add to list</button>
         </div>
     );
 };

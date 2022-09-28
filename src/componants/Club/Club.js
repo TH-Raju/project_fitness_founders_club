@@ -12,8 +12,8 @@ const Club = () => {
             .then(data => setSession(data));
     }, [])
 
-    const timeAdded = () => {
-        console.log('clicked');
+    const timeAdded = (session) => {
+        console.log(session.time);
 
     }
 

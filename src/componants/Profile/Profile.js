@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './Profile.css';
 
 const Profile = (props) => {
@@ -14,10 +15,10 @@ const Profile = (props) => {
 
     const breakTime = (e) => {
         const bt = document.getElementById('bT');
+        localStorage.setItem("break", e);
         bt.innerText = e;
+        return bt;
     }
-
-
 
 
     return (

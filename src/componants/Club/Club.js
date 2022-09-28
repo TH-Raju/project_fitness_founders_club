@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Session from '../Session/Session';
 import Profile from '../Profile/Profile';
 import './Club.css';
+import Blog from '../Blog/Blog';
 const Club = () => {
     const [sessions, setSession] = useState([]);
     const [times, setTime] = useState([]);
@@ -20,23 +21,26 @@ const Club = () => {
     }
 
     return (
-        <div className='full'>
-            <div className="cards">
-                {
-                    sessions.map(session => <Session
-                        key={session.id}
-                        session={session}
-                        timeAdded={timeAdded}
-                    ></Session>)
+        <div>
+            <div className='full'>
+                <div className="cards">
+                    {
+                        sessions.map(session => <Session
+                            key={session.id}
+                            session={session}
+                            timeAdded={timeAdded}
+                        ></Session>)
 
-                }
-            </div>
-            <div className="second">
-                <Profile
-                    times={times}
-                ></Profile>
+                    }
+                </div>
+                <div className="second">
+                    <Profile
+                        times={times}
+                    ></Profile>
 
+                </div>
             </div>
+            <Blog></Blog>
         </div>
     );
 };

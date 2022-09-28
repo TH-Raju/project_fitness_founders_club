@@ -14,7 +14,6 @@ const Club = () => {
     }, [])
 
     const timeAdded = (session) => {
-
         const newTime = [...times, session];
         setTime(newTime);
 

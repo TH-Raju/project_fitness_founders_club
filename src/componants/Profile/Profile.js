@@ -1,12 +1,25 @@
-import React from 'react';
 import './Profile.css';
 
 const Profile = (props) => {
     const { times } = props;
+
+    // For Estimate Time 
+
     let total = 0;
     for (const timeTotal of times) {
         total += timeTotal.time;
     }
+
+    //Break Time
+
+    const breakTime = (e) => {
+        const bt = document.getElementById('bT');
+        bt.innerText = e;
+    }
+
+
+
+
     return (
         <div className='pro'>
             <div className="profile">
@@ -31,10 +44,10 @@ const Profile = (props) => {
             <h2>Add a Break</h2>
 
             <div className="break">
-                <button className="button"><span>15</span>m</button>
-                <button className="button"><span>30</span>m</button>
-                <button className="button"><span>45</span>m</button>
-                <button className="button"><span>60</span>m</button>
+                <button onClick={() => breakTime(15)} className="button" >15m</button>
+                <button onClick={() => breakTime(30)} className="button">30m</button>
+                <button onClick={() => breakTime(45)} className="button">45m</button>
+                <button onClick={() => breakTime(60)} className="button">60m</button>
             </div>
 
             <h2>Exercise Details</h2>
@@ -44,7 +57,7 @@ const Profile = (props) => {
             </div>
             <div className="e-time">
                 <h3>Break Time </h3>
-                <p><span>0 </span>minutes</p>
+                <p><span id="bT">0 </span> minutes</p>
             </div>
             <button className="buton">Activity Completed</button>
         </div>

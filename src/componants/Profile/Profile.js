@@ -1,9 +1,14 @@
 import React from 'react';
 import './Profile.css';
 
-const Profile = () => {
+const Profile = (props) => {
+    const { times } = props;
+    let total = 0;
+    for (const timeTotal of times) {
+        total += timeTotal.time;
+    }
     return (
-        <div>
+        <div className='pro'>
             <div className="profile">
                 <img src="../../../public/logo192.png" alt="" />
                 <h2>TH Raju</h2>
@@ -35,7 +40,7 @@ const Profile = () => {
             <h2>Exercise Details</h2>
             <div className="e-time">
                 <h3>Estimate Time </h3>
-                <p><span>0 </span>minutes</p>
+                <p><span>{total} </span>minutes</p>
             </div>
             <div className="e-time">
                 <h3>Break Time </h3>

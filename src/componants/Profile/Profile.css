@@ -1,3 +1,8 @@
+.pro {
+    position: sticky;
+    top: 0%;
+}
+
 .profile {
     display: flex;
     justify-content: center;

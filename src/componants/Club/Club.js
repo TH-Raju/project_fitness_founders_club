@@ -4,6 +4,7 @@ import Profile from '../Profile/Profile';
 import './Club.css';
 const Club = () => {
     const [sessions, setSession] = useState([]);
+    const [times, setTime] = useState([]);
 
 
     useEffect(() => {
@@ -13,7 +14,9 @@ const Club = () => {
     }, [])
 
     const timeAdded = (session) => {
-        console.log(session.time);
+
+        const newTime = [...times, session];
+        setTime(newTime);
 
     }
 
@@ -30,7 +33,9 @@ const Club = () => {
                 }
             </div>
             <div className="second">
-                <Profile></Profile>
+                <Profile
+                    times={times}
+                ></Profile>
 
             </div>
         </div>

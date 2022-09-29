@@ -26,4 +26,9 @@
     color: aliceblue;
     font-size: 15px;
     background-color: green;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: royalblue;
 }

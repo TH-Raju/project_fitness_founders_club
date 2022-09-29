@@ -23,15 +23,20 @@ const Club = () => {
     return (
         <div>
             <div className='full'>
-                <div className="cards">
-                    {
-                        sessions.map(session => <Session
-                            key={session.id}
-                            session={session}
-                            timeAdded={timeAdded}
-                        ></Session>)
+                <div>
+                    <h1 class="ffc">FFC - Fitness Foundations Club</h1>
+                    <h1>Select today's excercise</h1>
+                    <div className="cards">
 
-                    }
+                        {
+                            sessions.map(session => <Session
+                                key={session.id}
+                                session={session}
+                                timeAdded={timeAdded}
+                            ></Session>)
+
+                        }
+                    </div>
                 </div>
                 <div className="second">
                     <Profile

@@ -9,11 +9,7 @@ const Profile = (props) => {
     const notify = () => toast.success("🦄 Wow You're Cool", {
         position: "top-right",
         autoClose: 4000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
+        draggable: false
     });
     const { times } = props;
 
@@ -73,7 +69,7 @@ const Profile = (props) => {
                 <h3>Break Time </h3>
                 <p><span id="bT">0 </span> minutes</p>
             </div>
-            <button className="buton" onClick={notify}>Activity Completed</button>
+            <button className="buton btn-success" onClick={notify}>Activity Completed</button>
             <ToastContainer
                 type="success" />
         </div>

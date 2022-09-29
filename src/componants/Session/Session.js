@@ -10,8 +10,8 @@ const Session = ({ timeAdded, session }) => {
             <div className="description">
                 <h1>{name}</h1>
                 <p>{description}</p>
-                <h3>Age: {age}</h3>
-                <h3>Time: <span>{time}</span> minute</h3>
+                <h3>For Age: {age}</h3>
+                <h3>Time required: <span>{time}</span> minute</h3>
             </div>
             <button onClick={() => timeAdded(session)} className="btn">Add to list</button>
         </div>

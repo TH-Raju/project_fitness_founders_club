@@ -24,7 +24,7 @@ const Club = () => {
         <div>
             <div className='full'>
                 <div>
-                    <h1 class="ffc">FFC - Fitness Foundations Club</h1>
+                    <h1 className="ffc">FFC - Fitness Foundations Club</h1>
                     <h1>Select today's excercise</h1>
                     <div className="cards">
 

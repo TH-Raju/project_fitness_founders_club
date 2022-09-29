@@ -6,7 +6,7 @@ import rj from './rj.png';
 
 
 const Profile = (props) => {
-    const notify = () => toast.success("🦄 Wow You're Cool", {
+    const notify = () => toast.success("🦄 Wow You're Done", {
         position: "top-right",
         autoClose: 4000,
         draggable: false
@@ -23,11 +23,19 @@ const Profile = (props) => {
     //Break Time
 
     const breakTime = (e) => {
+
         const bt = document.getElementById('bT');
-        localStorage.setItem("break", e);
+        localStorage.setItem("break", JSON.stringify(e));
         bt.innerText = e;
         return bt;
     }
+
+
+    let storeTime = localStorage.getItem("break");
+    if (storeTime === null) {
+        storeTime = "0";
+    }
+
 
 
     return (
@@ -67,7 +75,7 @@ const Profile = (props) => {
             </div>
             <div className="e-time">
                 <h3>Break Time </h3>
-                <p><span id="bT">0 </span> minutes</p>
+                <p><span id="bT">{storeTime}</span> minutes</p>
             </div>
             <button className="buton btn-success" onClick={notify}>Activity Completed</button>
             <ToastContainer
